@@ -18,11 +18,11 @@
         "name": "next"
       }
     ],
-    "baseUrl": ".", 
+    "baseUrl": ".",     
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["src/*"] 
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "lib/graphql"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/lib/graphql"],
   "exclude": ["node_modules"]
 }
