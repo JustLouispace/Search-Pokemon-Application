@@ -44,3 +44,15 @@ export const GET_POKEMON = gql`
     }
   }
 `
+
+export const GET_POKEMONS = gql`
+  query GetPokemons($first: Int!) {
+    pokemons(first: $first) {
+      id
+      number
+      name
+      image
+      types
+    }
+  }
+`

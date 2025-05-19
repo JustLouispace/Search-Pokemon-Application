@@ -25,9 +25,6 @@ export default function Home({
             <h1 className="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-red-500 mb-2">
               Pokémon Search
             </h1>
-            <div className="absolute -top-6 -right-6 w-12 h-12 opacity-70">
-              <Image src="/pokeball-icon.png" alt="Pokeball" width={48} height={48} className="animate-spin-slow" />
-            </div>
           </div>
           <p className="text-gray-600 max-w-2xl mx-auto">
             Search for a Pokémon to see its details, attacks, and evolutions
