@@ -7,8 +7,8 @@ import PokemonProvider from "@/components/PokemonProvider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Pokemon Search",
-  description: "Search for Pokemon and view their details",
+  title: "Pokémon Search",
+  description: "Search for Pokémon and view their details, attacks, and evolutions",
 }
 
 export default function RootLayout({
