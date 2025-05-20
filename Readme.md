@@ -1,7 +1,5 @@
 # Pokémon Search Application
 
-![Pokémon Search Banner](/public/pokemon-silhouette.png)
-
 ## Overview
 
 Pokémon Search is a modern web application that allows users to search for Pokémon and view detailed information about them. The application uses the Pokémon GraphQL API to fetch data and provides a clean, responsive interface for exploring Pokémon details, attacks, and evolutions.
